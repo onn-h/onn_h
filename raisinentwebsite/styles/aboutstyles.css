@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/**/
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FE9055;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;/*x-axis*/
+    align-items: center;/*y-axis*/
+    background-color: hsla(0, 0%, 100%, 0.5);
+    width: auto;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+}
+
+.logo{
+    padding: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+nav ul a li{
+    padding: 50px 60px;
+    transition: 0.5s;
+}
+
+nav ul a li:hover{
+    color: #FE9055;
+    text-shadow: 0 0 15px #461A3E;
+}
+
+.logo:hover{
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 1));
+    transition: 0.5s;
+}
+
+.title{
+    font-family: "Urbanist", sans-serif;
+    color: #461A3E;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    width: 95%;
+    height: auto;
+    border-radius: 200px;
+}
+
+.intro{
+    flex: 50%;
+    padding: 50px 100px;
+}
+
+.intro h2{
+    font-family: "Urbanist", sans-serif;
+    font-size: 64px;
+    margin-bottom: 10px;
+    color: #461A3E;
+}
+
+.intro p{
+    margin-bottom: 5%;
+    font-family: "Urbanist", sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.memberstitle{
+    font-family: "Urbanist", sans-serif;
+    color: #FE9055;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2b0f26;
+}
+
+.desmond{
+    background-color: #461A3E;
+}
+
+.membercontent1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.memberinformation1{
+    align-content: center;
+    margin-right: 250px;
+}
+
+.socialmedia1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia1 a{
+    margin: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.socialmedia1 a:hover{
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 1));
+    transition: 0.3s;
+}
+
+.memberinformation1 h2{
+   font-family: "Urbanist", sans-serif; 
+    color: #FE9055;
+    font-size: 50px;
+}
+
+.quan{
+    background-color: #AD74A7;
+}
+
+.membercontent2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.memberinformation2{
+    align-content: center;
+    margin-left: 250px
+}
+
+.socialmedia2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia2 a{
+    margin: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.socialmedia2 a:hover{
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+    transition: 0.3s;
+}
+    
+.memberinformation2 h2{
+   font-family: "Urbanist", sans-serif; 
+    color: #461A3E;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nabil{
+    background-color: #461A3E;
+}
+
+.membercontent1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.memberinformation1{
+    align-content: center;
+    margin-right: 250px;
+}
+
+.socialmedia1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia1 a{
+    margin: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.socialmedia1 a:hover{
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 1));
+    transition: 0.3s;
+}
+
+.memberinformation1 h2{
+   font-family: "Urbanist", sans-serif; 
+    color: #FE9055;
+    font-size: 50px;
+}
+
+.chinwoon{
+    background-color: #AD74A7;
+}
+
+.membercontent2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+}
+
+.memberinformation2{
+    align-content: center;
+    margin-left: 250px
+}
+
+.socialmedia2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia2 a{
+    margin: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.socialmedia2 a:hover{
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+    transition: 0.3s;
+}
+    
+.memberinformation2 h2{
+   font-family: "Urbanist", sans-serif; 
+    color: #461A3E;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;/*x-axis*/
+    align-items: center;/*y-axis*/
+    width: auto;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    background-color: #461A3E;
+}
+
+.footerlogo{
+    margin: 20px;
+    padding: auto;
+    filter: drop-shadow(0 0 30px white);
+}
+
+.footernav{
+    margin-right: 100px;
+}
+
+.footernav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav > ul{
+    display: flex;
+    gap: 80px;
+}
+
+.footernav a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+.footernav > ul > li > a{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.subnav li a{
+    font-size: 16px;
+    color: #ddd;
+    display: block;
+    margin-bottom: 8px;
+}

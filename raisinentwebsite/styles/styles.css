@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/**/
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #461A3E;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;/*x-axis*/
+    align-items: center;/*y-axis*/
+    background-color: hsla(0, 0%, 100%, 0.5);
+    width: auto;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+}
+
+.logo{
+    padding: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+nav ul a li{
+    padding: 50px 60px;
+    transition: 0.5s;
+}
+
+nav ul a li:hover{
+    color: #FE9055;
+    text-shadow: 0 0 15px #461A3E;
+}
+
+.logo:hover{
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 1));
+    transition: 0.5s;
+}
+
+.weare{
+    font-family: "Urbanist", sans-serif;
+    color: #FE9055;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    width: 95%;
+    height: auto;
+    border-radius: 200px;
+}
+
+.quotesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-top: 70px;
+    
+}
+
+#quote{
+    font-family: "Urbanist", sans-serif;
+    color: #FE9055;
+    font-size: 27px;
+    padding: 100px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.quotesection img{
+    width: 650px;
+    margin-right: 80px;
+    height: auto;
+}
+
+.latestvideos{
+    background-color: #FE9055;
+    padding: 50px;
+}
+
+#latestvids{
+    font-family: "Urbanist", sans-serif;
+    color: #461A3E;
+    font-size: 25px;
+    text-align: center;
+}
+
+#latestvids .videos{
+    flex: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.videos{
+    display: flex;
+    margin: auto;
+    background-color: #AD74A7;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.video{
+    margin: 40px 20px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.video:hover {
+  background-color: #777;
+}
+
+.latestvideos a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    height: auto;
+    font-size: 50px;
+}
+
+.latestvideos .button1{
+    background-color: #AD74A7;
+    width: 217px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+.latestvideos .button1:hover{
+    background-color: #461A3E;
+    transition: 0.5s;
+}
+
+.apalucakap{
+    margin: 0;
+    padding: 0;
+    background-color: #AD74A7;
+    display: flex;
+}
+
+.whiteborder img{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+.alcbottom{
+    display: flex;
+    padding: 70px 70px 70px 20px;
+    width: 100%;
+    
+}
+
+.alcvideos{
+    max-width: 900px;
+}
+
+.alcvids .alcvideos{
+    flex: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.alcvideos{
+    display: flex;
+    margin: auto;
+    background-color: #461A3E;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.alcvideo{
+    margin: 40px 20px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.alcvideo:hover {
+  background-color: #777;
+}
+
+.alcbutton {
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+
+.alcbutton a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    height: auto;
+    font-size: 70px;
+}
+
+.apalucakap .alcbutton{
+    background-color: #FE9055;
+    width: 300px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+.apalucakap .alcbutton:hover{
+    background-color: chocolate;
+    transition: 0.5s;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;/*x-axis*/
+    align-items: center;/*y-axis*/
+    width: auto;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    background-color: #461A3E;
+}
+
+.footerlogo{
+    margin: 20px;
+    padding: auto;
+    filter: drop-shadow(0 0 30px white);
+}
+
+.footernav{
+    margin-right: 100px;
+}
+
+.footernav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav > ul{
+    display: flex;
+    gap: 80px;
+}
+
+.footernav a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+.footernav > ul > li > a{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.subnav li a{
+    font-size: 16px;
+    color: #ddd;
+    display: block;
+    margin-bottom: 8px;
+}

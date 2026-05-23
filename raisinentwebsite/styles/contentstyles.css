@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/**/
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FE9055;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;/*x-axis*/
+    align-items: center;/*y-axis*/
+    background-color: hsla(0, 0%, 100%, 0.5);
+    width: auto;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+}
+
+.logo{
+    padding: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+nav ul a li{
+    padding: 50px 60px;
+    transition: 0.5s;
+}
+
+nav ul a li:hover{
+    color: #FE9055;
+    text-shadow: 0 0 15px #461A3E;
+}
+
+.logo:hover{
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 1));
+    transition: 0.5s;
+}
+
+.title{
+    font-family: "Urbanist", sans-serif;
+    color: #461A3E;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.alcinfo{
+    background-color: white;
+    margin: 95px;
+    margin-top: 0;
+    padding: 40px;
+    border-radius: 200px;
+    margin-bottom: 10px;
+}
+
+.alcinfotop{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.alcinfotop p{
+    text-align: left;
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.alcbutton{
+    align-items: flex-end;
+}
+
+.alcbutton a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    height: auto;
+    font-size: 50px;
+}
+
+.alcinfo .alcbutton{
+    background-color: #AD74A7;
+    width: 217px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+.alcinfo .alcbutton:hover{
+    background-color: #461A3E;
+    transition: 0.5s;
+}
+
+.title2{
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    color: #461A3E;
+    margin: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+
+.ytlatestvideos{
+    background-color: #AD74A7;
+    margin: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#ytlatestvids{
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #461A3E;
+    flex: 30%;
+    margin: 1.5%;
+}
+
+#ytlatestvids h1{
+    text-align: left;
+}
+
+#ytlatestvids .ytvideos{
+    flex: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.ytvideos{
+    display: flex;
+    margin: auto;
+    background-color: #461A3E;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.ytvideo{
+    margin: 40px 20px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.ytvideo:hover {
+  background-color: #777;
+}
+
+.iglatestvideos{
+    background-color: #461A3E;
+    margin: 50px;
+    padding: 10px;
+}
+
+#iglatestvids{
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #AD74A7;
+    flex: 30%;
+    margin: 1.5%;
+}
+
+#iglatestvids h1{
+    text-align: left;
+}
+
+#iglatestvids .igvideos{
+    flex: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.igvideos{
+    display: flex;
+    margin: auto;
+    background-color: #AD74A7;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.igvideo{
+    margin: 40px 20px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.igvideo:hover {
+  background-color: #777;
+}
+
+.tiktoklatestvideos{
+    background-color: #AD74A7;
+    margin: 50px;
+    padding: 10px;
+}
+
+#tiktoklatestvids{
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #461A3E;
+    flex: 30%;
+    margin: 1.5%;
+}
+
+#tiktoklatestvids h1{
+    text-align: left;
+}
+
+#tiktoklatestvids .tiktokvideos{
+    flex: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.tiktokvideos{
+    display: flex;
+    margin: auto;
+    background-color: #461A3E;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.tiktokvideo{
+    margin: 40px 20px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.tiktokvideo:hover {
+  background-color: #777;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;/*x-axis*/
+    align-items: center;/*y-axis*/
+    width: auto;
+    font-family: "Urbanist", sans-serif;
+    font-size: 25px;
+    background-color: #461A3E;
+}
+
+.footerlogo{
+    margin: 20px;
+    padding: auto;
+    filter: drop-shadow(0 0 30px white);
+}
+
+.footernav{
+    margin-right: 100px;
+}
+
+.footernav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav > ul{
+    display: flex;
+    gap: 80px;
+}
+
+.footernav a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+.footernav > ul > li > a{
+    display: block;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.subnav li a{
+    font-size: 16px;
+    color: #ddd;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
